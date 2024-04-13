@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+body{
+    background-color: blueviolet;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+#leftBox,#rightBox  {
+    border: 1px solid black;
+    width: 300px;
+    text-align: center;
+    min-height: 100px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.list{
+    background-color: burlywood;
+    margin: 10px;
+    padding: 20px;
+}
+.control{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin: auto;
+    align-items: center;
+}
+#checkLeft , #checkRight    
+{
+    margin-right: 20px;
+    width: 100px;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px dashed black;
+    background-color: aquamarine;
+}
